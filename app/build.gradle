@@ -351,7 +351,7 @@ dependencies {
     implementation "com.sun.mail:android-activation:$mail_version"
 
     //国密算法SM4 的JAVA实现(基于BC实现)
-    def bouncycastle_version = '1.77'
+    def bouncycastle_version = '1.78'
     api "org.bouncycastle:bcprov-jdk18on:$bouncycastle_version"
     //邮件 S/MIME 加密和签名
     //implementation "org.spongycastle:bcmail-jdk18on:$bouncycastle_version" //Android下报错
